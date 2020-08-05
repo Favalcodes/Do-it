@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/favalcodes/Do-it#readme",
   "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
     "lodash": "^4.17.19"
   },
   "devDependencies": {
