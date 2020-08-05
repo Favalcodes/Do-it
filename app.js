@@ -22,3 +22,17 @@ console.log(
   );
 
 console.log(todos.addTodo()); 
+
+
+const todos = require('./todos.js');
+ 
+const argv = yargs.argv;
+var command = argv._[0];
+ 
+console.log('Running Command: ', command);
+ 
+if (command === 'addTodo') {
+    todos.addTodo(argv.title);
+} else {
+    console.log('Invalid command.');
+}
