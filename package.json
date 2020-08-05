@@ -1,0 +1,30 @@
+{
+  "name": "do-it",
+  "version": "1.0.0",
+  "description": "A to do cli",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolbuhzor/Do-it.git"
+  },
+  "author": "okafor chibuzor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coolbuhzor/Do-it/issues"
+  },
+  "homepage": "https://github.com/coolbuhzor/Do-it#readme",
+  "dependencies": {
+    "lodash": "^4.17.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [
+    "javaScript",
+    "todo",
+    "app"
+  ]
+}
