@@ -12,4 +12,4 @@ clear();
 
 console.log(chalk.bold.yellow(('Do-it')));
 
-console.log(todos.addTodo());
+console.log(todos.addTodo()); 
