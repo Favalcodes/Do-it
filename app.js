@@ -33,6 +33,10 @@ console.log('Running Command: ', command);
  
 if (command === 'addTodo') {
     todos.addTodo(argv.title);
+}else if (command === 'deleteTodo') {
+    var todoDeleted = todos.deleteTodo(argv.title);
+    var message = todoDeleted ? 'Todo was deleted' : 'Todo not found';
+    console.log(message);
 } else {
     console.log('Invalid command.');
 }
