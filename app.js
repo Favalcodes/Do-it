@@ -23,8 +23,6 @@ console.log(
 
 console.log(todos.addTodo()); 
 
-
-const todos = require('./todos.js');
  
 const argv = yargs.argv;
 var command = argv._[0];
@@ -37,6 +35,18 @@ if (command === 'addTodo') {
     var todoDeleted = todos.deleteTodo(argv.title);
     var message = todoDeleted ? 'Todo was deleted' : 'Todo not found';
     console.log(message);
+  } else if (command === 'readTodo') {
+    var todo = todos.readTodo(argv.title);
+    if (todo) {
+        console.log('Great! The todo was found.');
+        todos.logTodo(todo);
+    } else {
+        console.log('oops! todo not found.');
+    }
+  } else if (command === 'listTodos') {
+    var allTodos = todos.listTodos();
+    console.log(`Printing ${allTodos.length} todo(s).`);
+    allTodos.forEach((todo) => todos.logTodo(todo));
 } else {
     console.log('Invalid command.');
 }
