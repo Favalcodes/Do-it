@@ -1,10 +1,42 @@
 # Do-it (A CLI ToDo APP)
-To use this app, you need to install the dependencies by running 'npm install'
 
-Adding a Todo, run the code 'node app.js addTodo --title ="name of Todo" '
+A NodeJS Command Line Interface Todo list app for creating, storing and managing todos.
 
-Deleting a Todo, run the code 'node app.js deleteTodo --title = "name of Todo" '
+## Deoendencies
 
-Reading a Todo, run the code 'node app.js readTodo --title = "name of Todo" '
+-   chalk :- Used to add color to texts.
 
-Listing all Todo Items, run the code 'node app.js listTodos'
+-   clear :- Provides the command to clear the terminal screen.
+
+-   figlet :- Used to create ASCII art from text.
+
+-   lodash :- Simple JS library to write concise codes.
+
+-   yargs :- Used to build interactive command line tools.
+
+## Setting up
+
+To run this app, run:
+
+-   npm install
+
+## Using the app
+
+To add a todo, run:
+
+-   node app.js addTodo --title "name-of-todo"
+
+
+To delete a todo, run:
+
+-   node app.js deleteTodo --title "name-of-todo"
+
+
+To read a todo, run:
+
+-   node app.js readTodo --title "name-of-todo"
+
+
+To list a todo, run:
+
+-   node app.js listTodos
