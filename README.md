@@ -40,3 +40,16 @@ To read a todo, run:
 To list a todo, run:
 
 -   node app.js listTodos
+
+##Collaborators
+
+Favour Ezinne Arua
+Peter Jay
+Ridwan Ajanaku
+Chukwuemeka Collins Anyanwu
+Choice Osobor
+Anderson
+Harith Onigemo
+Renegade Gandhi
+Hezekiah Feyisayo
+Chibuzor
